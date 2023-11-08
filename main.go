@@ -1,7 +1,10 @@
 package main
 
-import "gonote/note"
+import (
+	"fmt"
+	"gonote/note"
+)
 
 func main() {
-	note.SayHelloWorld()
+	fmt.Println(note.Version)
 }
