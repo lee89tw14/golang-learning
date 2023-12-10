@@ -74,6 +74,19 @@ func BasicDataTypes() {
 	fmt.Printf("c1的碼值=%v,碼值對應的字符是%c,type is %T\n", c1, c1, c1)
 	fmt.Printf("c2的碼值=%v,碼值對應的字符是%c,type is %T\n", c2, c2, c2)
 	fmt.Printf("c3的碼值=%v,碼值對應的字符是%c,type is %T\n", c3, c3, c3)
+	c4 := 'A' - 'a'
+	c5 := 'x'
+	c6 := c5 + c4
+	fmt.Printf("c6的碼值=%v,碼值對應的字符是%c,type is %T\n", c6, c6, c6)
+
+	fmt.Println("\n2.3.6 布林函數")
+	var bool1 bool = true
+	fmt.Printf("bool=%v,type is %T\n", bool1, bool1)
+
+	fmt.Println("\n2.3.7 文字列(字串)")
+	var s1 = "hello"
+	fmt.Println(s1, "world")
+	fmt.Println(len(s1))
 
 }
 
